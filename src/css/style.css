@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Font-site-free';
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Font-site-free';
+}
+main{
+    width: 380px;
+    border-radius: 20px;
+    height: 520px;
+    margin-top: 30px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    box-shadow: 10px 10px 00px 0px black;
+}
+.imagem{
+    /* margin-bottom: 30px; */
+    margin-top: 24px;
+    margin-left: 5px;
+    width: 335px;
+    border-radius: 10px;
+    height: 200px;
+    background-color: blue;
+    background: url(../assets/images/illustration-article.svg) center center no-repeat;
+    background-size: cover;
+}
+button{
+    margin-top: 26px;
+    /* margin-left: 19px; */
+    width: 82px;
+    height: 27px;
+    padding: 4px;
+    color: black;
+    background-color:  hsl(47, 88%, 63%);
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: 900;
+}
+h1{
+    margin-top: 17px;
+    /* margin-left: 19px; */
+    font-size: 24px;
+    font-weight: 800;
+    width: 280px;
+}
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+#ano{
+    /* margin-left: 19px; */
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#languagehtmlecsss{
+    margin-left: 0px;
+    margin-top: 18px;
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 500;
+    color:  hsl(0, 0%, 42%);
+}
+.perfil{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 35px;
+    margin-top: 30px;
+    /* background-color: red; */
+}
+.img{
+    width: 32px;
+    height: 31px;
+    border-radius: 50px;
+    background-color: blue;
+    background: url(../assets/images/image-avatar.webp) center center no-repeat;
+    background-size: cover;
+}
+.nome{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+} 
